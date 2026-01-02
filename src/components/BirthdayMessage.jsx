@@ -56,38 +56,7 @@ export default function BirthdayMessage({ onComplete }) {
         <FallingText colors={["#ff00ff", "#ffffff"]} />
       </div>
 
-      {/* === Kredit Lagu di Pojok Kanan Bawah === */}
-      <div className="fixed bottom-2 right-4 z-50 text-[0.65rem] text-gray-300 bg-black bg-opacity-50 px-2 py-1 rounded max-w-xs text-right leading-tight">
-        🎵 <strong>Eternal Love</strong> by{" "}
-        <a
-          href="https://www.twisterium.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline"
-        >
-          Twisterium
-        </a>
-        <br />
-        Music promoted by{" "}
-        <a
-          href="https://www.free-stock-music.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline"
-        >
-          Free-Stock-Music.com
-        </a>
-        <br />
-        Licensed under{" "}
-        <a
-          href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline"
-        >
-          CC BY-SA 3.0
-        </a>
-      </div>
+      
 
       {/* Konten Utama */}
       <div className="absolute inset-0 flex flex-col items-center justify-center z-10 p-4 overflow-y-auto">
