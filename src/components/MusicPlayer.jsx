@@ -5,24 +5,24 @@ import { useState } from "react";
 const songs = [
   {
     id: 1,
-    title: "You!",
-    artist: "LANY",
+    title: "About You",
+    artist: "The - 1975",
     embedUrl:
-      "https://open.spotify.com/embed/track/2VMhO32IsyhshnUoKhjCBE?utm_source=generator",
+      "https://open.spotify.com/embed/track/3hEfpBHxgieRLz4t3kLNEg?utm_source=generator",
   },
   {
     id: 2,
-    title: "Our To Keep",
-    artist: "Kendis, Adis",
+    title: "A Thousand Years",
+    artist: "Christina Perri",
     embedUrl:
-      "https://open.spotify.com/embed/track/3Puhw21QI2MKR4rdvyPuIb?utm_source=generator",
+      "https://open.spotify.com/embed/track/6lanRgr6wXibZr8KgzXxBl?utm_source=generator",
   },
   {
     id: 3,
-    title: "Saat Bahagia",
-    artist: "Ungu",
+    title: "Bergema Sampai Selamanya",
+    artist: "Nadhif Basalamah",
     embedUrl:
-      "https://open.spotify.com/embed/track/4Pa4h41IgFmhbxsnVZO9pl?utm_source=generator",
+      "https://open.spotify.com/embed/track/1RaJdXCj61oSRUUciGKoWe?utm_source=generator",
   },
 ];
 

@@ -16,18 +16,18 @@ export default function LoveCalendar() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const favoritePhotos = [
-    { month: "January", image: januaryImg, description: "Belum kenal ayang, masih berkelana sama elaa." },
-    { month: "February", image: februaryImg, description: "Masih main sama anak KKN dan pake sexy aw!?" },
-    { month: "March", image: marchImg, description: "Pertama kali ayang ngirim foto" },
-    { month: "April", image: aprilImg, description: "LDR samaa ayangg jadi foto sama keluarga ciwiw" },
-    { month: "May", image: mayImg, description: "First time nonton bioskop bareng ayangg" },
-    { month: "June", image: juneImg, description: "Ayanggg sidangg " },
-    { month: "July", image: julyImg, description: "First time main ke timezone bareng ayangg" },
-    { month: "August", image: augustImg, description: "Nemenin Ayang Wisudaa" },
-    { month: "September", image: septemberImg, description: "Kita jalan-jalan ke Kebun Raya Bogor." },
-    { month: "October", image: octoberImg, description: "Dikomen ayangg lewat IG katanya mirip casey!" },
-    { month: "November", image: novemberImg, description: "Belanja ke pasar karena buyutt sakit " },
-    { month: "December", image: decemberImg, description: "Lovv u sayangkuuu" }
+    { month: "January", image: januaryImg, description: "Bulan januari kita belum ketemuu tapi ntar kita muncak bareng teruss sekaliaan traveling barengg yaaa!" },
+    { month: "February", image: februaryImg, description: "Bulan februari jugaa belum kenal hihii cuman temen instagram" },
+    { month: "March", image: marchImg, description: "Hmmm bulan marett masih sendiri nihh wkwk" },
+    { month: "April", image: aprilImg, description: "Aprill masihh malu maluu wkwk" },
+    { month: "May", image: mayImg, description: "Masiiih lama nih jadwal meet wkwk" },
+    { month: "June", image: juneImg, description: "Yeeyyy ternyata belum ketemuu jugaa hahahaaaa" },
+    { month: "July", image: julyImg, description: "Inii niihh foto pemersatuu wkwkk" },
+    { month: "August", image: augustImg, description: "Agustus udah mulaii deket niih sampee dibantuin skripsi wkwk" },
+    { month: "September", image: septemberImg, description: "Cieee photobox pertamas niih ntar foto yang banyaakk yaaa!" },
+    { month: "October", image: octoberImg, description: "Nii foto sebelumm ketemu camerr wkwk😜" },
+    { month: "November", image: novemberImg, description: "Inii dahh mulaii terbiasaa ngasii trickk kalo ngebujuk😝" },
+    { month: "December", image: decemberImg, description: "Inii lucuu bangett pokoknyaa kota harus bareng teruuss titikkkk." }
   ];
 
   const handleToggle = (index) => {

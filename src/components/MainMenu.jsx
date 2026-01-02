@@ -22,7 +22,7 @@ const RelationshipTimer = () => {
   });
 
   useEffect(() => {
-    const startDate = new Date('2025-04-04');
+    const startDate = new Date('2025-09-06');
     const updateTimer = () => {
       const now = new Date();
       const diff = now - startDate;
@@ -162,25 +162,25 @@ export default function MainMenu({ currentPage, setCurrentPage }) {
                     <div className="bg-pink-800 bg-opacity-50 p-4 rounded-xl border border-pink-400 border-opacity-30">
                       <h3 className="text-xl font-semibold text-pink-200 mb-2">Special Dates</h3>
                       <ul className="text-pink-300 space-y-2">
-                        <li>First Meet: Sept 20, 2024</li>
-                        <li>First Date: March 8, 2025</li>
-                        <li>Anniversary: April 4, 2026</li>
+                        <li>First Meet: July 25, 2025</li>
+                        <li>First Date: September 04, 2025</li>
+                        <li>Anniversary: September 06, 2026</li>
                       </ul>
                     </div>
                     <div className="bg-pink-800 bg-opacity-50 p-4 rounded-xl border border-pink-400 border-opacity-30">
                       <h3 className="text-xl font-semibold text-pink-200 mb-2">Our Places</h3>
                       <ul className="text-pink-300 space-y-2">
-                        <li>Favorite Cafe: - </li>
-                        <li>Favorite Park: Kebun Raya Bogor</li>
-                        <li>Favorite Restaurant: Solaria</li>
+                        <li>Favorite Cafe: Berlabuh yang di Pantai Marina </li>
+                        <li>Favorite Park: Sabana di Gunung😁</li>
+                        <li>Favorite Restaurant: Tom Sushi</li>
                       </ul>
                     </div>
                     <div className="bg-pink-800 bg-opacity-50 p-4 rounded-xl border border-pink-400 border-opacity-30">
                       <h3 className="text-xl font-semibold text-pink-200 mb-2">Memories</h3>
                       <ul className="text-pink-300 space-y-2">
-                        <li>Trips Together: - </li>
-                        <li>Movies Watched: - </li>
-                        <li>Songs Shared: -   </li>
+                        <li>Trips Together: 2 </li>
+                        <li>Movies Watched: 1 </li>
+                        <li>Songs Shared: 1  </li>
                       </ul>
                     </div>
                   </div>

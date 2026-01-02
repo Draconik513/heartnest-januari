@@ -23,8 +23,8 @@ const FloatingText = ({ text, delay = 0 }) => {
 export default function BirthdayMessage({ onComplete }) {
   const [step, setStep] = useState(0);
   const [showConfetti, setShowConfetti] = useState(false);
-  const name = "Fajar Ananto";
-  const birthDate = "2 oktober 2003";
+  const name = "Muhammad Alanuari";
+  const birthDate = "3 Januari 2004";
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -139,7 +139,7 @@ export default function BirthdayMessage({ onComplete }) {
             }`}
           >
             <p className="text-base md:text-xl text-white leading-relaxed">
-              To the most amazing woman in my life, may your birthday be as
+              To the most amazing man in my life, may your birthday be as
               beautiful as you are. Every moment with you feels like a dream
               come true. I pray for your happiness, health, and success in
               everything you do. You deserve all the love in the universe. I

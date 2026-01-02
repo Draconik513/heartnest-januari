@@ -7,72 +7,69 @@ export default function LoveNotes() {
 
       <div className="bg-pink-900 bg-opacity-60 backdrop-blur-md rounded-3xl p-6 sm:p-10 shadow-2xl border border-pink-500/30 relative overflow-hidden">
         <div className="prose prose-pink prose-lg text-pink-100 max-w-none">
-          <p className="text-2xl font-semibold mb-6 neon-text">
-            My Dearest Love,
+          <p className="text-2xl font-semibold mb-6 neon-text">My Dearest Love,</p>
+
+          <p>
+            Saat aku duduk di sini memikirkanmu di hari spesialmu, hatiku dipenuhi oleh perasaan
+            yang rasanya sulit diungkapkan dengan kata-kata. Sejak pertama kali kita bertemu,
+            hidupku terasa lebih berwarna dari sebelumnya. 🌈
           </p>
 
           <p>
-            Saat aku duduk di sini memikirkanmu di hari istimewamu, hatiku
-            dipenuhi dengan emosi yang sulit diungkapkan dengan kata-kata. Sejak
-            pertama kali kita bertemu, hidupku telah diwarnai dengan warna-warna
-            yang tak pernah kuduga sebelumnya. 🌈
+            Kamu adalah orang tercantik yang pernah aku kenal — bukan hanya dari penampilanmu
+            (meskipun kamu selalu berhasil membuatku terpukau setiap kali melihatmu),
+            tapi juga dari kebaikan hatimu, tawamu, dan caramu peduli pada orang lain.
+            Hatimu benar-benar berharga. 💛
           </p>
 
           <p>
-            Kau adalah orang terindah yang kukenal. Bukan hanya dari
-            penampilanmu (meskipun kau selalu membuatku terpesona setiap kali
-            melihatmu), tetapi juga dari kebaikanmu, tawamu, dan caramu peduli
-            pada orang lain. Hatimu bagaikan emas. 💛
+            Aku masih mengingat kencan pertama kita dengan sangat jelas — rasa gugup,
+            tawa kecilmu yang membuat matamu berbinar, dan saat itu aku tahu
+            kamu adalah seseorang yang spesial. Aku tidak menyangka,
+            kamu akan menjadi segalanya bagiku. ✨
           </p>
 
           <p>
-            Aku ingat kencan pertama kita seperti baru kemarin. Kegembiraan yang
-            menegangkan, cara matamu berbinar saat tertawa, dan bagaimana aku
-            tahu saat itu bahwa kau adalah seseorang yang istimewa. Tanpa
-            kusadari kau akan menjadi segalanya bagiku. ✨
+            Dari semua petualangan yang kita jalani — obrolan larut malam,
+            perjalanan dadakan, hingga momen sederhana saat kita hanya saling menggenggam tangan —
+            setiap kenangan bersamamu adalah harta yang kusimpan di hatiku.
+            Kamu membuat hal biasa terasa luar biasa. 🌟
           </p>
 
           <p>
-            Melalui semua petualangan kita – obrolan larut malam, perjalanan
-            spontan, momen-momen hening bergandengan tangan – setiap kenangan
-            bersamamu adalah harta yang kusimpan erat di hatiku. Kau membuat
-            setiap momen biasa menjadi luar biasa. 🌟
+            Di hari ulang tahunmu ini, aku ingin kamu tahu bahwa kamu dicintai lebih dari yang bisa kamu bayangkan.
+            Aku berdoa semoga tahun ini membawa kebahagiaan, kesuksesan,
+            dan banyak momen indah yang pantas kamu dapatkan.
+            Melihatmu bahagia adalah kebahagiaan terbesarku. 🎂
           </p>
 
           <p>
-            Di hari ulang tahunmu, aku ingin kau tahu bahwa kau dicintai tanpa
-            batas. Aku berdoa semoga tahun ini membawamu pada kebahagiaan,
-            kesuksesan, dan momen-momen indah yang pantas kamu dapatkan. Semoga
-            semua impianmu terwujud, karena melihatmu bahagia adalah kebahagiaan
-            terbesarku. 🎂
+            Terima kasih karena telah menjadi dirimu —
+            atas kesabaranmu saat aku keras kepala,
+            atas pengertianmu saat aku lelah dan tertekan,
+            dan atas cintamu bahkan di saat aku merasa tidak pantas menerimanya.
+            Kamu membuatku ingin menjadi pribadi yang lebih baik setiap hari. 🌱
           </p>
 
           <p>
-            Terima kasih telah menjadi dirimu sendiri – untuk kesabaranmu saat
-            aku keras kepala, untuk pengertianmu saat aku stres, untuk cintamu
-            bahkan saat aku tak pantas mendapatkannya. Kamu membuatku ingin
-            menjadi orang yang lebih baik setiap hari. 🌱
+            Saat kita merayakan usiamu yang ke-22,
+            aku menantikan semua kenangan indah yang akan kita ciptakan bersama.
+            Aku berjanji akan menjagamu, mendukungmu,
+            dan mencintaimu lebih dalam setiap harinya.
+            Apa pun yang terjadi, aku akan selalu ada di sisimu. 🤝
           </p>
 
           <p>
-            Saat kita merayakan ulang tahunmu yang ke-22, aku menantikan semua
-            kenangan yang akan kita ciptakan bersama. Aku berjanji untuk
-            menghargaimu, mendukungmu, dan mencintaimu lebih dari hari ke hari.
-            Apa pun yang terjadi dalam hidup, aku akan selalu di sisimu. 🤝
+            Selamat ulang tahun, cintaku.
+            Hari ini dan selamanya, semoga kamu selalu merasa betapa berharganya dirimu —
+            bagiku, dan bagi semua orang yang beruntung mengenalmu.
+            Kamu adalah matahariku di hari mendung,
+            penenangku di saat badai,
+            dan anugerah terbesarku. 🌻
           </p>
 
-          <p>
-            Selamat ulang tahun, sayangku. Hari ini dan selamanya, semoga kamu
-            merasakan betapa istimewanya dirimu – bagiku, dan bagi semua orang
-            yang cukup beruntung mengenalmu. Kamu adalah sinar matahariku di
-            hari-hari mendung, jangkarku di lautan badai, dan berkah terbesarku.
-            🌻
-          </p>
-
-          <p className="text-2xl font-semibold mt-8 neon-text">
-            Forever Yours,
-          </p>
-          <p className="text-xl">nanagemazz💋</p>
+          <p className="text-2xl font-semibold mt-8 neon-text">Forever Yours,</p>
+          <p className="text-xl">[Namamu]</p>
         </div>
 
         {/* Emoji Footer */}

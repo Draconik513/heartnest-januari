@@ -1,61 +1,50 @@
 import { useState } from "react";
 
-
-
-import march1 from "../assets/images/memories/march-1.jpg";
-import march2 from "../assets/images/memories/march-2.jpg";
-import march3 from "../assets/images/memories/march-3.jpg";
-import march4 from "../assets/images/memories/march-4.jpg";
-
-
-import april1 from "../assets/images/memories/april-1.jpg";
-import april2 from "../assets/images/memories/april-2.jpg";
-import april3 from "../assets/images/memories/april-3.jpg";
-import april4 from "../assets/images/memories/april-4.jpg";
-
-
-import may1 from "../assets/images/memories/may-1.jpg";
-import may2 from "../assets/images/memories/may-2.jpg";
-
-
-import june1 from "../assets/images/memories/june-1.jpg";
-import june2 from "../assets/images/memories/june-2.jpg";
-import june3 from "../assets/images/memories/june-3.jpg";
-import june4 from "../assets/images/memories/june-4.jpg";
-
-
+// JULY
 import july1 from "../assets/images/memories/july-1.jpg";
 import july2 from "../assets/images/memories/july-2.jpg";
 import july3 from "../assets/images/memories/july-3.jpg";
 import july4 from "../assets/images/memories/july-4.jpg";
+import july5 from "../assets/images/memories/july-5.jpg";
 
-
+// AUGUST
 import august1 from "../assets/images/memories/august-1.jpg";
 import august2 from "../assets/images/memories/august-2.jpg";
 import august3 from "../assets/images/memories/august-3.jpg";
 import august4 from "../assets/images/memories/august-4.jpg";
 
-
+// SEPTEMBER
 import september1 from "../assets/images/memories/september-1.jpg";
 import september2 from "../assets/images/memories/september-2.jpg";
 import september3 from "../assets/images/memories/september-3.jpg";
 import september4 from "../assets/images/memories/september-4.jpg";
 
+// OCTOBER
+import october1 from "../assets/images/memories/october-1.jpg";
+import october2 from "../assets/images/memories/october-2.jpg";
+import october3 from "../assets/images/memories/october-3.jpg";
+import october4 from "../assets/images/memories/october-4.jpg";
 
+// NOVEMBER
+import november1 from "../assets/images/memories/november-1.jpg";
+import november2 from "../assets/images/memories/november-2.jpg";
+import november3 from "../assets/images/memories/november-3.jpg";
+import november4 from "../assets/images/memories/november-4.jpg";
 
+// DECEMBER
+import december1 from "../assets/images/memories/december-1.jpg";
+import december2 from "../assets/images/memories/december-2.jpg";
+import december3 from "../assets/images/memories/december-3.jpg";
+import december4 from "../assets/images/memories/december-4.jpg";
 
 const monthPhotos = {
-
-  March: [march1, march2, march3, march4],
-  April: [april1, april2, april3, april4],
-  Mei: [may1, may2],
-  June: [june1, june2, june3, june4],
-  Juli: [july1, july2, july3, july4],
+  Juli: [july1, july2, july3, july4, july5],
   August: [august1, august2, august3, august4],
   September: [september1, september2, september3, september4],
-
+  October: [october1, october2, october3, october4],
+  November: [november1, november2, november3, november4],
+  December: [december1, december2, december3, december4],
 };
-
 
 export default function Gallery() {
   const [selectedMonth, setSelectedMonth] = useState(null);
@@ -65,7 +54,7 @@ export default function Gallery() {
     .filter((month) => monthPhotos[month].length > 0)
     .map((month) => ({
       name: month,
-      photos: monthPhotos[month].length
+      photos: monthPhotos[month].length,
     }));
 
   return (
@@ -94,40 +83,40 @@ export default function Gallery() {
       </div>
 
       {selectedMonth && (
-  <div className="fixed inset-0 bg-black bg-opacity-95 z-50 flex flex-col">
-    {/* Header */}
-    <div className="flex justify-between items-center p-4 border-b border-pink-800 bg-black bg-opacity-80">
-      <h2 className="text-xl md:text-2xl font-bold text-pink-200">
-        {selectedMonth} Memories
-      </h2>
-      <button
-        className="text-pink-300 hover:text-white text-2xl"
-        onClick={() => setSelectedMonth(null)}
-      >
-        ✕
-      </button>
-    </div>
-
-    {/* Photos Grid - Improved spacing */}
-    <div className="flex-1 overflow-y-auto p-2 sm:p-4">
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-3 md:gap-4">
-        {monthPhotos[selectedMonth].map((photo, index) => (
-          <div
-            key={index}
-            className="aspect-square rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300"
-            onClick={() => setSelectedPhoto(index)}
-          >
-            <img
-              src={photo}
-              alt={`Memory ${index + 1}`}
-              className="w-full h-full object-cover"
-            />
+        <div className="fixed inset-0 bg-black bg-opacity-95 z-50 flex flex-col">
+          {/* Header */}
+          <div className="flex justify-between items-center p-4 border-b border-pink-800 bg-black bg-opacity-80">
+            <h2 className="text-xl md:text-2xl font-bold text-pink-200">
+              {selectedMonth} Memories
+            </h2>
+            <button
+              className="text-pink-300 hover:text-white text-2xl"
+              onClick={() => setSelectedMonth(null)}
+            >
+              ✕
+            </button>
           </div>
-        ))}
-      </div>
-    </div>
-  </div>
-)}
+
+          {/* Photos Grid - Improved spacing */}
+          <div className="flex-1 overflow-y-auto p-2 sm:p-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-3 md:gap-4">
+              {monthPhotos[selectedMonth].map((photo, index) => (
+                <div
+                  key={index}
+                  className="aspect-square rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform duration-300"
+                  onClick={() => setSelectedPhoto(index)}
+                >
+                  <img
+                    src={photo}
+                    alt={`Memory ${index + 1}`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
 
       {selectedPhoto !== null && (
         <div className="fixed inset-0 bg-black z-50 flex items-center justify-center">
