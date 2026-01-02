@@ -69,7 +69,7 @@ export default function LoveNotes() {
           </p>
 
           <p className="text-2xl font-semibold mt-8 neon-text">Forever Yours,</p>
-          <p className="text-xl">[Namamu]</p>
+          <p className="text-xl">Aufa Zhalila</p>
         </div>
 
         {/* Emoji Footer */}
