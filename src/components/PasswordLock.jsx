@@ -27,7 +27,7 @@ export default function PasswordLock({ onUnlock, correctPassword }) {
       >
         <div className="bg-pink-800 bg-opacity-50 backdrop-blur-md rounded-2xl p-8 shadow-2xl border border-pink-400 border-opacity-30">
           <h1 className="text-3xl font-bold text-pink-100 mb-6 text-center drop-shadow-sm">
-            Our Secret Place
+            hayoo tebak password nyaa🤪
           </h1>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="relative">

@@ -11,7 +11,7 @@ export default function App() {
   const [showBirthday, setShowBirthday] = useState(false);
   const [currentPage, setCurrentPage] = useState("home");
 
-  const correctPassword = "hayoo tebak password nyaa🤪"; // Change this to your secret password
+  const correctPassword = "06092025"; // Change this to your secret password
 
   const handleUnlock = () => {
     setShowCountdown(true);
